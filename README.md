@@ -12,9 +12,10 @@ Table of contents
 - Key features
 - Design & architecture
 - Requirements
-- Quick start
 - License
 - Acknowledgements & credits
+
+![logo](gitasset/logo.png)
 
 About
 -----
@@ -47,35 +48,6 @@ Requirements
 ------------
 - Python 3.8+
 - See requirements.txt for the exact pins used in examples
-
-Quick start
------------
-Minimal example showing a typical Blinkable app structure:
-
-```python
-from blinkable import Engine, Scene, Entity, Sprite, load_image
-
-class MyScene(Scene):
-    def load(self):
-        self.player = Entity()
-        img = load_image("assets/player_spritesheet.png")
-        self.player.add(Sprite(img, frame_width=32, frame_height=32))
-        self.add_entity(self.player)
-
-    def update(self, dt):
-        # handle input & update entities
-        pass
-
-    def draw(self, surface):
-        surface.clear((20, 20, 30))
-        for entity in self.entities:
-            entity.draw(surface)
-
-if __name__ == "__main__":
-    engine = Engine(title="Blinkable Demo", width=800, height=600, fps=60)
-    engine.push_scene(MyScene())
-    engine.run()
-```
 
 Roadmap
 -------

@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8%2B-green.svg)](https://www.python.org/)
 
-Blinkable is a lightweight, open-source 2D game/graphics engine written in Python. It focuses on clarity, performance for 2D workflows, and easy extensibility. Blinkable is provided under the Apache License 2.0 — free to use, modify, and distribute.
+Blinkable is a lightweight, open-source 2D game/graphics engine written in Python. It focuses on clarity, performance for 2D workflows, and easy extensibility. Blinkable is provided under the Apache License 2.0 — free to use, modify, and distribute. Check the Documentation in wiki please
 
 This repository contains the engine core, example projects, and contributor resources to help you build 2D games, visualizations, or interactive tools.
 

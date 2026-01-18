@@ -87,7 +87,3 @@ By contributing you agree that your contributions will be licensed under the pro
 ## Additional notes
 - If your change involves user-visible behavior or documentation, update the README or other docs.
 - For larger changes, open a draft PR or discuss the approach in an issue first.
-
----
-
-Thank you for helping make Blinkable better! If you’d like, I can add this CONTRIBUTING.md to the repository directly — tell me whether to commit it to `main` (and provide preferred commit message), or create a new branch and open a pull request.
